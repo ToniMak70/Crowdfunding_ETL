@@ -30,7 +30,11 @@
             • Start up jupyter notebook and begin to execute the following commands:
                 1. import the dependancies
                 2. Read the data into a Pandas DataFrame
-                   ![output2] (https://github.com/ToniMak70/Crowdfunding_ETL/blob/main/Images/crowdfunding_info_df.png)
+                
+![crowdfunding_info_df](https://github.com/user-attachments/assets/e65c8c41-1b3a-4ea4-8b8e-6a26054dc27f)
+
+
+
                 3. Get a brief summary of the crowdfunding_info DataFrame
                 4. Get the crowdfunding_info_df columns
                 5. Assign the category and subcategory values to category and subcategory columns
@@ -40,12 +44,21 @@
                 9. Use a list comprehension to add "cat" to each category_id and Use a list comprehension to add "subcat" to each subcategory_id
                 10. Create a category DataFrame with the category_id array as the category_id and categories list as the category name and Create a category DataFrame with the subcategory_id array as the subcategory_id and subcategories list as the subcategory name
                 11. Dislay the category_df
-                    ![output11] (https://github.com/ToniMak70/Crowdfunding_ETL/blob/main/Images/category_df.png)
+                
+![category_df](https://github.com/user-attachments/assets/0568e04e-d6cc-42e2-b402-4ae61ed430ab)
+
+
                 12. Display the subcategory_df
-                    ![output12] (https://github.com/ToniMak70/Crowdfunding_ETL/blob/main/Images/subcategory_df.png)
+                
+![subcategory_df](https://github.com/user-attachments/assets/aae34d27-5f5e-4217-b39a-12d2f62c4bd0)
+
+
                 13. Export categories_df and subcategories_df as CSV files
                 14. Create a copy of the crowdfunding_info_df DataFrame name campaign_df
-                    ![output14] (https://github.com/ToniMak70/Crowdfunding_ETL/blob/main/Images/campain_df.png)
+                
+![campain_df](https://github.com/user-attachments/assets/78cadbc4-497b-4406-81a4-6b18a0e64595)
+
+
                 15. Rename the blurb, launched_at, and deadline columns
                 16. Convert the goal and pledged columns to a `float` data type
                 17. Check the datatypes
@@ -60,7 +73,10 @@
                 26. Check the datatypes
                 27. Create a "first"name" and "last_name" column with the first and last names from the "name" column then drop the contact_name column
                 28. Reorder the columns
-                    ![output28] (https://github.com/ToniMak70/Crowdfunding_ETL/blob/main/Images/contacts_df_clean.png)
+                
+![contacts_df_clean](https://github.com/user-attachments/assets/6a7a9bfb-fb4c-4006-989d-c371fd02c296)
+
+
                 29. Check the datatypes one more time before exporting as CSV file
                 30. Export the DataFrame as a CSV file
              • Open up PostgreSQL database server
@@ -72,7 +88,8 @@
                     SELECT * FROM category;
                     SELECT * FROM contacts;
                     SELECT * FROM subcategory;
-                   
+![crowdfunding_db_ERD](https://github.com/user-attachments/assets/511d185f-51a5-47cc-8bbf-da727bd9d921)
+               
     __________________________________________
     Conclusion
     This project walks through the process of building an ETL pipeline, transforming data, and integrating it into a PostgreSQL database. By following the steps, you will practice working with Python, Pandas, SQL, and database management, while handling real-world crowdfunding data.
