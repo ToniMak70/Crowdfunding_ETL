@@ -30,7 +30,7 @@
             • Start up jupyter notebook and begin to execute the following commands:
                 1. import the dependancies
                 2. Read the data into a Pandas DataFrame
-                    ![output2] (https://github.com/ToniMak70/Crowdfunding_ETL/blob/main/Images/crowdfunding_info_df.png)
+                   ![crowdfunding_info_df](https://github.com/user-attachments/assets/5f13a8e7-d8b3-4103-bb0c-f764277a4a1b)
                 3. Get a brief summary of the crowdfunding_info DataFrame
                 4. Get the crowdfunding_info_df columns
                 5. Assign the category and subcategory values to category and subcategory columns
