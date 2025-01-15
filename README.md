@@ -30,7 +30,7 @@
             • Start up jupyter notebook and begin to execute the following commands:
                 1. import the dependancies
                 2. Read the data into a Pandas DataFrame
-                    !
+                    ![output2] (Crowdfunding_ETL/Images/crowdfunding_info_df.png at main · ToniMak70/Crowdfunding_ETL)
                 3. Get a brief summary of the crowdfunding_info DataFrame
                 4. Get the crowdfunding_info_df columns
                 5. Assign the category and subcategory values to category and subcategory columns
@@ -40,9 +40,12 @@
                 9. Use a list comprehension to add "cat" to each category_id and Use a list comprehension to add "subcat" to each subcategory_id
                 10. Create a category DataFrame with the category_id array as the category_id and categories list as the category name and Create a category DataFrame with the subcategory_id array as the subcategory_id and subcategories list as the subcategory name
                 11. Dislay the category_df
+                    ![output11] (Crowdfunding_ETL/Images/category_df.png at main · ToniMak70/Crowdfunding_ETL)
                 12. Display the subcategory_df
+                    ![output12] (Crowdfunding_ETL/Images/subcategory_df.png at main · ToniMak70/Crowdfunding_ETL)
                 13. Export categories_df and subcategories_df as CSV files
                 14. Create a copy of the crowdfunding_info_df DataFrame name campaign_df
+                    ![output14] (Crowdfunding_ETL/Images/campain_df.png at main · ToniMak70/Crowdfunding_ETL)
                 15. Rename the blurb, launched_at, and deadline columns
                 16. Convert the goal and pledged columns to a `float` data type
                 17. Check the datatypes
@@ -57,6 +60,7 @@
                 26. Check the datatypes
                 27. Create a "first"name" and "last_name" column with the first and last names from the "name" column then drop the contact_name column
                 28. Reorder the columns
+                    ![output28] (Crowdfunding_ETL/Images/contacts_df_clean.png at main · ToniMak70/Crowdfunding_ETL)
                 29. Check the datatypes one more time before exporting as CSV file
                 30. Export the DataFrame as a CSV file
              • Open up PostgreSQL database server
